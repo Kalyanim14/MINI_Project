@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS image_encryption;
+
+USE image_encryption;
+
+CREATE TABLE IF NOT EXISTS image_data (
+    image_id VARCHAR(255) PRIMARY KEY,
+    image_name VARCHAR(255),
+    password VARCHAR(255)
+);
